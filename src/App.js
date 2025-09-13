@@ -27,7 +27,7 @@ function App() {
 
         <div className="content">
           <h1>
-            <DecryptedText text="Coming Soon" />
+            <DecryptedText text="Shiesty RP 2.0" />
           </h1>
           <p>
             <DecryptedText text="Something amazing is on the way!" />
