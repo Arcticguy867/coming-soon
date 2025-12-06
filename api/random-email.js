@@ -23,5 +23,5 @@ function generateEmail() {
 }
 
 module.exports = (req, res) => {
-  res.status(200).send(generateEmail());
+  res.status(200).send({ email: generateEmail() });
 };
