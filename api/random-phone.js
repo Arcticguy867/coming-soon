@@ -9,5 +9,5 @@ function generatePhone() {
 }
 
 module.exports = (req, res) => {
-  res.status(200).send(generatePhone());
+  res.status(200).send({ phone: generatePhone() });
 };

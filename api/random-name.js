@@ -19,5 +19,5 @@ function generateName() {
 }
 
 module.exports = (req, res) => {
-  res.status(200).send(generateName());
+  res.status(200).send({ name: generateName() });
 };
